@@ -1,4 +1,4 @@
-# Examen - Accidents de la Route
+# Examen Inès MEHAH - Accidents de la Route 
 
 ## Présentation du Projet
 Le projet vise à créer et héberger un modèle prédictif pour évaluer les accidents de la route. 
