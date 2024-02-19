@@ -1,17 +1,15 @@
-# Projet d'Examen - Accidents de la Route
+# Examen - Accidents de la Route
 
 ## Présentation du Projet
-Le projet vise à créer et héberger un modèle prédictif pour évaluer les accidents de la route. Les données utilisées proviennent du travail d'Ilyes Talbi, qui a été présenté dans les premières sessions. 
+Le projet vise à créer et héberger un modèle prédictif pour évaluer les accidents de la route. 
 
 ## Sources des Données
-Les données pour ce projet ont été fournies par Ilyes Talbi. Pour plus d'informations, veuillez consulter les sources mentionnées dans le travail d'Ilyes Talbi [ici](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/).
+Les données utilisées proviennent du travail d'Ilyes Talbi, qui a été présenté dans les premières sessions à retrouver [ici](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/).
 
 ## Éléments du Repository
-- **Code source**: Les scripts et notebooks utilisés pour prétraiter les données, construire et évaluer les modèles.
-- **README.md**: Ce fichier contenant la documentation du projet.
-- **Azure Configuration**: Les configurations et scripts pour créer le groupe de ressources, l'instance Azure Databricks, et le cluster.
-- **Databricks Notebooks**: Les notebooks utilisés pour importer les données, construire les modèles, et tester l'API.
-- **Modèles Enregistrés**: Les meilleurs modèles sélectionnés après l'évaluation.
+- **README.md**: Ce fichier contenant la documentation du projet (présentation du projet, les sources des données, etc.).
+- **Databricks Notebooks**: Les notebooks utilisés pour importer les données, construire les modèles (Notebook : "Modelisation"), et tester l'API (Notebook : "Test API").
+- **Modèle retenu**: Le meilleur modèle sélectionné après l'évaluation ainsi que ses performances.
 
 ## Modèle Retenu et Performances
 Trois modèles ont été construits et évalués :
